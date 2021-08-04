@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="teste" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-15T23:14:46" hostname="rodrigues-gabriela" time="2.113">
+  <properties/>
+  <testcase name="testeApiSimples()" classname="teste" time="1.337"/>
+  <testcase name="testeApiUtilizandoObjeto()" classname="teste" time="0.525"/>
+  <testcase name="testeApiUtilizandoGiven()" classname="teste" time="0.25"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 15 Jul 2021 23:14:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 997
+X-Ratelimit-Reset: 1625650197
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 26005
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=76OHOupoCAneYE6Qf%2BxNF2nUH4bW8YqACxr5Ek6Z37sa4qd8HjjJuRqmSdpy921ldsCPqAL7%2F3vOF%2B0FOnMXQgUbnJHOUCtMNRC9DXR4MKtKzl3Iw7%2BhSZBWdf6N5qVcRHSOOoLSzMyeqin4S1DM"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 66f6b0670caff6bf-GRU
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+
+{
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 15 Jul 2021 23:14:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 997
+X-Ratelimit-Reset: 1625650197
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 26005
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=B9bFyTKyHT6EoLEzHjBVHetQyliJXd34UV0cjmavtvsqsqJaUKsSdwujZBcenc3tD6XxbuykrIYY5OpJTy0DLZ3CxM%2FDs1gOuR0C12PNRhcZ93GoqloY3AzFZLsb%2FWGq97PThEXKXHLTRXbB33jf"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 66f6b068ecfe51ba-GRU
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+
+{
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 15 Jul 2021 23:14:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 997
+X-Ratelimit-Reset: 1625650197
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 26006
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KRP8YeIp5B2kJ%2B9Edh7P%2BPOGOIpvrtPk66zO57m1O%2B6lhFTvxNQQ4mevS4%2F01GQfUkuWeOd3TEGb1%2Fv8e5VimicxlG6y%2B6PlzPqk0nHvvcP8FynG%2BM09mM9QrNlmgvSykQmuPc1p%2FKSvYqqEtkuH"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 66f6b06c1a7af3af-GRU
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+
+{
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
